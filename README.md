@@ -21,15 +21,26 @@ Some Features:
 PORT=...
 MONGO_DB_URI=...
 JWT_SECRET=...
-NODE_ENV=...
+NODE_ENV=... optional
 // C:\<your location >\mern-chat-app\frontend\src\context\SocketContext.jsx  //change teh socut url
+- PORT=5000
+
+- MONGO_URI=your_mongo_atlest cluster url
+- JWT_SECRET= to create jwt secret use this command in git bash terminal "openssl rand -base64 32"
+
+
+
 ```
 
 ### Build the app
 
+- go to frontend folder and run
+
 ```shell
 npm run build
 ```
+
+- from the root directory
 
 ### Start the app
 
